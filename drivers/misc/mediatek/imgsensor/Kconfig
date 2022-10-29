@@ -1,0 +1,17 @@
+config MTK_IMGSENSOR
+	bool CONFIG_MTK_IMGSENSOR
+	default n
+	help
+	  CONFIG_MTK_IMGSENSOR
+
+config PROJECT_LISBON
+	bool CONFIG_PROJECT_LISBON
+	default n
+	help
+	  CONFIG_PROJECT_LISBON
+
+source "drivers/misc/mediatek/imgsensor/src/Kconfig"
+config ARCH_MOTO_PROJECT
+	string CONFIG_ARCH_MOTO_PROJECT
+	help
+	  CONFIG_ARCH_MOTO_PROJECT
